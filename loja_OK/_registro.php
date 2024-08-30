@@ -29,6 +29,7 @@ $email = $_POST['email'];
 $celular = $_POST['celular'];
 $password = $_POST['password'];
 
+
 //inserindo os dados 
 
 $sql = "INSERT INTO clientes (nome_cliente, cpf_cnpj, cep,logradouro, numero, complemento, bairro, cidade, uf, email, celular, password) VALUES ('$nome_cliente', '$cpf_cnpj','$cep','$logradouro', '$numero', '$complemento', '$bairro','$cidade', '$uf', '$email', '$celular','$password')";
